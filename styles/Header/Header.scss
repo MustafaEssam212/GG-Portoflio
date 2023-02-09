@@ -232,6 +232,7 @@
                 gap: 25px;
                 animation: .3s OpenMenu ease-in forwards;
                 -webkit-animation: .3s OpenMenu ease-in forwards;
+                z-index: 5;
 
                 a{
                     color: #212121;
