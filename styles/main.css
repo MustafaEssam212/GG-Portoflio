@@ -496,6 +496,7 @@
     background-color: rgba(0, 0, 0, 0.767);
     -webkit-backdrop-filter: blur(4px);
             backdrop-filter: blur(4px);
+    z-index: 5;
   }
   @-webkit-keyframes OpenMenu {
     from {
