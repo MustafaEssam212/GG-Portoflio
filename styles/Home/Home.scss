@@ -289,6 +289,10 @@
     
     .HomeContainer{
         .First{
+
+            video{
+                object-fit: cover;
+            }
             .OnVideo{
                 h1{
                     font-size: 100px;

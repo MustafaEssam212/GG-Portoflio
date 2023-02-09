@@ -53,13 +53,17 @@ const handleMoving = () => {
   }
 }
 
+/* 
+onMouseDown={()=> handleClickingMove()} onMouseUp={()=> handleMoving()} onClick={()=> setStartPoint(position.y)}
+*/
+
 
   return (
     <div className='HomeContainer'  ref={outsider} >
 
  
 
-        <div className="First" onMouseDown={()=> handleClickingMove()} onMouseUp={()=> handleMoving()} onClick={()=> setStartPoint(position.y)}>
+        <div className="First">
         <Header />
               <video muted autoPlay loop>
                   <source src="/video.mp4" type="video/mp4"></source>
@@ -90,7 +94,7 @@ const handleMoving = () => {
         </div>
 
 
-        <div className='RightFooterOnVideo' style={ScreenWidth > 1005 ? {top: `${(Height / 2) - 41.5}px`} : {top: `${(Height / 1) - 110.5}px`}}>
+        <div className='RightFooterOnVideo' style={ScreenWidth > 1005 ? {top: `${(Height / 2) - 41.5}px`} : Height < 650 ? {top: `${Height - 130.5}px`} : {top: `${Height - 210.5}px`}}>
             <button onClick={()=> scrollTop()}><GoArrowUp className='ArrowIcon' /></button>
             <button onClick={()=> scrollDown()}><GoArrowDown className='ArrowIcon' /></button>
         </div>

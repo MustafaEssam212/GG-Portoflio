@@ -1,0 +1,275 @@
+.HomeContainer {
+  height: 100vh;
+  overflow: hidden;
+  cursor: pointer;
+}
+.HomeContainer .First {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.HomeContainer .First video {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.HomeContainer .First .BlackScreen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: black;
+  opacity: 0.4;
+}
+.HomeContainer .First .OnVideo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.HomeContainer .First .OnVideo h1 {
+  font-family: var(--Monterest);
+  color: whitesmoke;
+  font-size: 150px;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px black;
+  cursor: default;
+}
+.HomeContainer .First .OnVideo h1 span {
+  color: var(--MainColor);
+}
+.HomeContainer .First .OnVideo h2 {
+  font-family: var(--ArabicTitlesFont);
+  color: whitesmoke;
+  text-shadow: 0px 0px 5px black;
+  cursor: default;
+  font-size: 23px;
+}
+.HomeContainer .First .OnVideo h2 span {
+  color: var(--MainColor);
+}
+.HomeContainer .First .OnVideo .FooterOnVideo {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.HomeContainer .First .OnVideo .FooterOnVideo .LeftFooterOnVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.HomeContainer .First .OnVideo .FooterOnVideo .LeftFooterOnVideo a {
+  color: whitesmoke;
+  font-size: 22px;
+  transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  -moz-transition: 0.3s all linear;
+  -ms-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+}
+.HomeContainer .First .OnVideo .FooterOnVideo .LeftFooterOnVideo a:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+.HomeContainer .RightFooterOnVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.HomeContainer .RightFooterOnVideo button {
+  background-color: transparent;
+  font-size: 17px;
+  color: whitesmoke;
+  height: 40px;
+  border: 3px solid rgba(128, 128, 128, 0.281);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 22px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-shadow: 0px 0px 5px black;
+  cursor: pointer;
+  transition: 0.3s all linear;
+  -webkit-transition: 0.3s all linear;
+  -moz-transition: 0.3s all linear;
+  -ms-transition: 0.3s all linear;
+  -o-transition: 0.3s all linear;
+}
+.HomeContainer .RightFooterOnVideo button:hover {
+  color: var(--MainColor);
+  border: 3px solid whitesmoke;
+}
+.HomeContainer .Second {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.HomeContainer .Second .SecondContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.HomeContainer .Second .SecondContainer .LeftSecond {
+  width: 50%;
+  background-image: url("/blob.svg");
+  background-repeat: no-repeat;
+  background-image: 100% 100%;
+}
+.HomeContainer .Second .SecondContainer .LeftSecond img {
+  height: 570px;
+  width: 600px;
+}
+.HomeContainer .Second .SecondContainer .RightSecond {
+  width: 50%;
+}
+.HomeContainer .Second .SecondContainer .RightSecond h1 {
+  font-family: var(--Monterest);
+  font-weight: 700;
+  color: var(--MainColor);
+  margin: 25px;
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 0px 0px 5px 5px black;
+}
+.HomeContainer .Second .SecondContainer .RightSecond .AfterH {
+  font-family: var(--ArabicLinksFont);
+  font-weight: 600;
+  color: whitesmoke;
+  text-align: right;
+  margin: 15px 25px;
+}
+.HomeContainer .Second .SecondContainer .RightSecond h2 {
+  color: var(--MainColor);
+  font-family: var(--ArabicLinksFont);
+  font-family: 700;
+  text-align: right;
+  margin: 20px 25px;
+}
+.HomeContainer .Second .SecondContainer .RightSecond p {
+  color: whitesmoke;
+  font-family: var(--ArabicLinksFont);
+  font-weight: 500;
+  text-align: right;
+  margin: 15px 25px;
+}
+.HomeContainer .Second h1 {
+  font-family: var(--ArabicLinksFont);
+  font-weight: 600;
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 15px;
+}
+.HomeContainer .Second h1 span {
+  color: var(--MainColor);
+}
+
+@media (max-width: 1149px) {
+  .HomeContainer .Second .SecondContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .HomeContainer .Second .SecondContainer .RightSecond {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .HomeContainer .Second .SecondContainer .LeftSecond {
+    display: none;
+  }
+}
+@media (max-width: 1015px) {
+  .HomeContainer .First .OnVideo h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 463px) {
+  .HomeContainer .First video {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .HomeContainer .First .OnVideo h1 {
+    font-size: 100px;
+  }
+}
+@media (max-width: 281px) {
+  .HomeContainer .First .OnVideo h1 {
+    font-size: 70px;
+  }
+}
