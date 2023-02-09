@@ -1,0 +1,37 @@
+
+
+@use './Home/Home';
+@use './Header/Header';
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap');
+
+:root{
+    --EnglishFont: 'Kanit', sans-serif;
+    --MainColor: #FFB431;
+    --ArabicLinksFont: 'Alexandria', sans-serif;
+    --PointerCursor: url('/cursor.cur'), pointer;
+    --ArabicTitlesFont: 'Lemonada', cursive;
+    --SecondEnglish: 'Rubik', sans-serif;
+    --Monterest:'Montserrat', sans-serif;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #212121;
+    position: relative;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
