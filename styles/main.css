@@ -496,7 +496,7 @@
     background-color: rgba(0, 0, 0, 0.767);
     -webkit-backdrop-filter: blur(4px);
             backdrop-filter: blur(4px);
-    z-index: 5;
+    z-index: 1;
   }
   @-webkit-keyframes OpenMenu {
     from {
@@ -533,7 +533,7 @@
     gap: 25px;
     animation: 0.3s OpenMenu ease-in forwards;
     -webkit-animation: 0.3s OpenMenu ease-in forwards;
-    z-index: 5;
+    z-index: 1;
   }
   .HeaderContainer .RightDivForScreens .InnerScreens a {
     color: #212121;

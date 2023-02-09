@@ -211,7 +211,7 @@
             width: 100%;
             background-color: rgba(0, 0, 0, 0.767);
             backdrop-filter: blur(4px);
-            z-index: 5;
+            z-index: 1;
             @keyframes OpenMenu {
                 from{
                     right: -300px;
@@ -232,7 +232,7 @@
                 gap: 25px;
                 animation: .3s OpenMenu ease-in forwards;
                 -webkit-animation: .3s OpenMenu ease-in forwards;
-                z-index: 5;
+                z-index: 1;
 
                 a{
                     color: #212121;
